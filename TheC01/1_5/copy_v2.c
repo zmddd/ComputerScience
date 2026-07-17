@@ -1,0 +1,13 @@
+
+//读一个字符
+// while (该字符不是文件结束指示符) 
+// 输出刚读入的字符
+// 读下一个字符
+#include <stdio.h>
+
+int main (){
+    int c ;
+    while ((c= getchar() )!= EOF) {
+        putchar(c);
+    }
+}
